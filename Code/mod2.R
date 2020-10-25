@@ -179,7 +179,9 @@ pairs(train[,c(3,8,14,15)]) #There exists multicollinearity
 model_final=lm(formula = BODYFAT ~ ABDOMEN + WEIGHT + WRIST + FOREARM, data = fat)
 summary(model_final)
 anova(model_final)
+par(mfrow=c(2,2))
 plot(model_final)
+par(mfrow=c(1,1))
 plot(fat[,1]-predict(model_final,fat),main="Residual plot",xlab = "index",ylab = "residual",ylim=c(-15,15))
 abline(h=0,lty=2)
 
