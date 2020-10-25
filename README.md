@@ -1,4 +1,4 @@
-# STAT-628-Module2-FALL2020
+# STAT-628-Module2-FA20
 
 ## Group Members
 - Hua Tong @Tonghua35
