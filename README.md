@@ -8,7 +8,7 @@
 ## Introduction 
 This is our research to develop a method to help people estimate body fat percentage to help them assess health. We conducted statistical analysis over the data of a group of people’s body information and worked out a linear model to estimate the body fat percentage.
 
-# Project Detail
+## Project Detail
 This project includes the following:
 - Two-Page Summary
 - `mod2.R` in `Code` folder is the code used to produce all the analysis
